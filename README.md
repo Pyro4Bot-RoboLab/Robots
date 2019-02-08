@@ -13,8 +13,8 @@ UEX RoboLab components and services for [_**Pyro4Bot**_ project](https://github.
 * **Alberto Serrano** - [@BertoSerrano](https://github.com/BertoSerrano)
 
 
-See also the list of [contributors here](https://github.com/BertoSerrano/pyro4bot/graphs/contributors) 
-[and here](https://github.com/BertoSerrano/pyro4bot_components/graphs/contributors)
+See also the list of [contributors here](https://github.com/Pyro4Bot-RoboLab/Pyro4Bot/graphs/contributors) 
+and [here](https://github.com/Pyro4Bot-RoboLab/Components/graphs/contributors)
 who participated in this project.
 
 
