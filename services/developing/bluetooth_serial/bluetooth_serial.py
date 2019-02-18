@@ -16,7 +16,7 @@ class bluetooth_serial(control.Control):
 
     def __init__(self):
         self.subscriptors = {}
-        self.buffer = publication.Publication()()
+        self.buffer = publication.Publication()
         self.writer = []
         self.clients = {}
         self.devices = None

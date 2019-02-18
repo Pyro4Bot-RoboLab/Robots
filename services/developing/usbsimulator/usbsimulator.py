@@ -15,7 +15,7 @@ class usbsimulator(control.Control):
     __REQUIRED = ["comPort", "comPortBaud"]
 
     def __init__(self):
-        self.buffer = publication.Publication()()
+        self.buffer = publication.Publication()
         self.available = 0
         self.lock = 1
         self.IR = [0, 1, 1]
