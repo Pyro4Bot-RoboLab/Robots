@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ____________developed by paco andres____________________
 # _________collaboration with cristian vazquez____________
@@ -14,6 +14,7 @@ import Pyro4
 
 @Pyro4.expose
 class gpioservice(control.Control):
+    """ GPIO Controller for Raspberry Pi """
     __REQUIRED = ["gpio_mode"]
 
     def __init__(self):

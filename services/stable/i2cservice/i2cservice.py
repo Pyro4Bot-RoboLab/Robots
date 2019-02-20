@@ -1,9 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ____________developed by paco andres____________________
 # _________collaboration with cristian vazquez____________
 # All data defined in json configuration are attributes in your code object
-
 import time
 from node.libs import control
 import Pyro4
@@ -12,6 +11,7 @@ from node.libs.gpio.I2C import *
 
 @Pyro4.expose
 class i2cservice(control.Control):
+    """ Controller for a I2C communication bus """
     __REQUIRED = ["gpioservice"]
 
     def __init__(self):

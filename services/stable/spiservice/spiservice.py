@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ____________developed by paco andres____________________
 # _________collaboration with cristian vazquez____________
@@ -11,6 +11,7 @@ from node.libs.gpio.SPI import *
 
 @Pyro4.expose
 class spiservice(control.Control):
+    """ Controller for a SPI communication bus """
     __REQUIRED = ["gpioservice"]
 
     def __init__(self):

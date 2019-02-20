@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # lock().acquire()
 # ____________developed by paco andres____________________
@@ -12,6 +12,7 @@ import Pyro4
 
 @Pyro4.expose
 class usbserial(control.Control):
+    """  """
     __REQUIRED = ["comPort", "comPortBaud"]
 
     def __init__(self):

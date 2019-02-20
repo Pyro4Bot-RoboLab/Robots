@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # lock().acquire()
 # ____________developed by paco andres____________________
@@ -13,6 +13,7 @@ import Pyro4
 
 @Pyro4.expose
 class usbcam(control.Control):
+    """ ...through Arduino """
     __REQUIRED = ["width", "height"]
 
     def __init__(self):
