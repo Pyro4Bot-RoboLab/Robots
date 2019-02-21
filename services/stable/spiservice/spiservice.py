@@ -11,7 +11,7 @@ from node.libs.gpio.SPI import *
 
 @Pyro4.expose
 class spiservice(control.Control):
-    """ Controller for a SPI communication bus """
+    """ Controller for a SPI communication bus through Raspberry Pi """
     __REQUIRED = ["gpioservice"]
 
     def __init__(self):

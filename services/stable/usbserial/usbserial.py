@@ -12,7 +12,7 @@ import Pyro4
 
 @Pyro4.expose
 class usbserial(control.Control):
-    """  """
+    """ Driver to control an Arduino board through a Raspberry Pi """
     __REQUIRED = ["comPort", "comPortBaud"]
 
     def __init__(self):

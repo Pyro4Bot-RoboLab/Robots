@@ -3,85 +3,85 @@
     "pantilt": {
       "content": "pantilt",
       "path": "components/stable/pantilt/pantilt.py",
-      "type": "TODO",
-      "controller": "gpio",
+      "type": "servo",
+      "controller": "arduino",
       "stable": true
     },
     "infrared": {
       "content": "infrared",
       "path": "components/stable/infrared/infrared.py",
-      "type": "TODO",
-      "controller": "gpio",
+      "type": "IR_sensor",
+      "controller": "arduino",
       "stable": true
     },
     "laser": {
       "content": "laser",
       "path": "components/stable/laser/laser.py",
-      "type": "TODO",
-      "controller": "gpio",
+      "type": "laser_sensor",
+      "controller": "arduino",
       "stable": true
     },
     "l298n": {
       "content": "l298n",
       "path": "components/stable/l298n/l298n.py",
-      "type": "TODO",
+      "type": "motor",
       "controller": "gpio",
       "stable": true
     },
     "basemotion": {
       "content": "basemotion",
       "path": "components/stable/basemotion/basemotion.py",
-      "type": "TODO",
-      "controller": "gpio",
+      "type": "motor",
+      "controller": "arduino",
       "stable": true
     },
     "apriltag_resolver": {
       "content": "apriltag_resolver",
       "path": "components/stable/apriltag_resolver/apriltag_resolver.py",
-      "type": "TODO",
-      "controller": "gpio",
+      "type": "resolver",
+      "controller": "",
       "stable": true
     },
     "alphal298n": {
       "content": "alphal298n",
       "path": "components/stable/alphal298n/alphal298n.py",
-      "type": "TODO",
+      "type": "motor",
       "controller": "gpio",
       "stable": true
     },
     "mirror": {
       "content": "mirror",
       "path": "components/stable/mirror/mirror.py",
-      "type": "TODO",
-      "controller": "gpio",
+      "type": "motor",
+      "controller": "arduino",
       "stable": true
     },
     "soundfounder": {
-      "content": "soundfounder",
+      "content": "sfline",
       "path": "components/developing/soundfounder/soundfounder.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "pca9685": {
       "content": "pca9685",
       "path": "components/developing/pca9685/pca9685.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "alphainfrarred": {
-      "content": "alphainfrarred",
+      "content": "alphainfrarredobs",
       "path": "components/developing/alphainfrarred/alphainfrarred.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "WSEPaper_beta": {
       "content": "WSEPaper_beta",
       "path": "components/developing/WSEPaper_beta/WSEPaper_beta.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "h206speed": {
@@ -94,7 +94,7 @@
     "tlc1543ad": {
       "content": "tlc1543ad",
       "path": "components/developing/tlc1543ad/tlc1543ad.py",
-      "type": "TODO",
+      "type": "TODO-sensor",
       "controller": "gpio",
       "stable": false
     },
@@ -109,7 +109,7 @@
       "content": "sonar",
       "path": "components/developing/sonar/sonar.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "arduino",
       "stable": false
     },
     "EPDDriver": {
@@ -123,28 +123,28 @@
       "content": "apriltag_subscripter",
       "path": "components/developing/apriltag_subscripter/apriltag_subscripter.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "apriltag_frames_ab": {
       "content": "apriltag_frames_ab",
       "path": "components/developing/apriltag_frames_ab/apriltag_frames_ab.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "remote_camera": {
       "content": "remote_camera",
       "path": "components/developing/remote_camera/remote_camera.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "WSEPaper": {
       "content": "WSEPaper",
       "path": "components/developing/WSEPaper/WSEPaper.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "ir_remote_control": {
@@ -154,48 +154,41 @@
       "controller": "gpio",
       "stable": false
     },
-    "a": {
-      "content": "a",
-      "path": "components/developing/display/a.py",
-      "type": "TODO",
-      "controller": "gpio",
-      "stable": false
-    },
     "alphapantilt": {
       "content": "alphapantilt",
       "path": "components/developing/alphapantilt/alphapantilt.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "fake": {
       "content": "fake",
       "path": "components/developing/fake/fake.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "apriltag_frames_lb": {
       "content": "apriltag_frames_lb",
       "path": "components/developing/apriltag_frames_lb/apriltag_frames_lb.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "alphaultrasound": {
       "content": "alphaultrasound",
       "path": "components/developing/alphaultrasound/alphaultrasound.py",
       "type": "TODO",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     }
   },
   "services": {
     "picam_socket": {
-      "content": "picam_socket",
+      "content": "picam",
       "path": "services/stable/picam_socket/picam_socket.py",
       "type": "driver",
-      "controller": "gpio",
+      "controller": "both",
       "stable": true
     },
     "gpioservice": {
@@ -209,7 +202,7 @@
       "content": "usbserial",
       "path": "services/stable/usbserial/usbserial.py",
       "type": "driver",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": true
     },
     "spiservice": {
@@ -230,21 +223,21 @@
       "content": "usbcam",
       "path": "services/developing/usbcam/usbcam.py",
       "type": "driver",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "usbsimulator": {
       "content": "usbsimulator",
       "path": "services/developing/usbsimulator/usbsimulator.py",
       "type": "driver",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     },
     "bluetooth_serial": {
       "content": "bluetooth_serial",
       "path": "services/developing/bluetooth_serial/bluetooth_serial.py",
       "type": "driver",
-      "controller": "gpio",
+      "controller": "TODO",
       "stable": false
     }
   }
