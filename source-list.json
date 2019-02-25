@@ -184,13 +184,6 @@
     }
   },
   "services": {
-    "picam_socket": {
-      "content": "picam",
-      "path": "services/stable/picam_socket/picam_socket.py",
-      "type": "driver",
-      "controller": "both",
-      "stable": true
-    },
     "gpioservice": {
       "content": "gpioservice",
       "path": "services/stable/gpioservice/gpioservice.py",
