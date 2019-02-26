@@ -1,0 +1,17 @@
+{
+   "NODE":{
+      "name":"paco",
+      #"ethernet":"wlan0",
+      "ethernet":"eth0"
+    },
+   "services":{
+        "usbserial":{"cls":"usbsimulator","comPort":"/dev/ttyS0","comPortBaud":115200,"mode":"local"}
+        #"picam":{"cls":"picam","ethernet":"<ethernet>","mode":"public","framerate":25,"width":640,"height":480,"frec":0.02,"vflip":false,"hflip":false}
+
+   },
+   "components":{
+        "suelo":{"cls":"infrared","IR":[0,0,0,0]},
+        "base":{"cls":"basemotion","MOTORS":[0,0],"BASE":[]},
+        "pantilt":{"cls":"pantilt","PT":[90,90]}
+    }
+}

@@ -1,9 +1,9 @@
-# _PYRO4BOT Components_
-UEX RoboLab components and services for [_**Pyro4Bot**_ project](https://github.com/Pyro4Bot-RoboLab/Pyro4Bot)
+# _PYRO4BOT Robots_
+UEX RoboLab robots for [_**Pyro4Bot**_ project](https://github.com/Pyro4Bot-RoboLab/Pyro4Bot)
 
 
 ### PYRO4BOT
-This repository is used by the original project _**Pyro4Bot**_ to download the required components, services or both of them for a specific _pyro4bot_ robot.
+This repository is used by the original project _**Pyro4Bot**_ to download predefined robots for _pyro4bot_ robotic project.
 
 ## Authors
 
@@ -14,8 +14,8 @@ This repository is used by the original project _**Pyro4Bot**_ to download the r
 * **Pablo Tato** - [@ptato](https://github.com/ptato)
 
 
-See also the list of [contributors here](https://github.com/Pyro4Bot-RoboLab/Pyro4Bot/graphs/contributors) 
-and [here](https://github.com/Pyro4Bot-RoboLab/Components/graphs/contributors)
+See also the list of [contributors here](https://github.com/Pyro4Bot-RoboLab/Pyro4Bot/graphs/contributors), [here](https://github.com/Pyro4Bot-RoboLab/Components/graphs/contributors)
+and [here](https://github.com/Pyro4Bot-RoboLab/Robots/graphs/contributors)
 who participated in this project.
 
 
